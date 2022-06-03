@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+  letter-spacing: 15px;
+  font-style: italic;
+  background-color: maroon;
+  color: #ffffcc;
+  border-bottom: 15px solid firebrick;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+h2 {
+  background-color: green;
+  padding: 5px 10px;
+  color: white;
+}
+
+p {
+  line-height: 25px;
+}
+
+body {
+  background-color: #ffffcc;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  color: darkred;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border-style: dashed;
+  padding: 10px 75px 10px 30px;
+  background-color: white;
+  border-color: gray;
+}
+
+h3 {
+  color: gray;
+}
+
+table {
+  background-color: #cccccc;
+  border: 20px black;
+}
+
+.space {
+  width: 1100px;
+  background-color: red;
+}

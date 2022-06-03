@@ -1,0 +1,54 @@
+.columns {
+  width: 457px;
+  height: 138px;
+  display: flex;
+  margin: 4px;
+  border-width: 5px;
+  border-color: blue;
+  border-style: solid;
+  padding: 0px;
+}
+.column1 {
+  padding-left: 4px;
+  padding-top: 4px;
+}
+.column2 {
+  padding-left: 14px;
+}
+
+.c {
+  display: flex;
+  height: 0;
+  width: 0;
+}
+
+.column {
+  display: flex;
+}
+
+.col1 {
+  padding-right: 14px;
+}
+
+.col2 {
+  padding-right: 24px;
+}
+
+.p3 {
+  font-size: 15px;
+  color: grey;
+  font-weight: 500;
+  margin: auto;
+}
+.p2 {
+  font-size: 20px;
+  height: 24px;
+}
+main {
+  font-family: "Roboto", sans-serif;
+}
+.p1 {
+  font-size: 20px;
+  font-weight: bold;
+  height: 14px;
+}
