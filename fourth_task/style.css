@@ -11,15 +11,25 @@ body{
     background-color: #EEEEEE;
 }
 
-header{
+.head1{
 height: 55px;
-background-color:#25313F;
+background:#25313F padding-box;
+width:100%;
 border-bottom: 2px solid #31B9E4;
+margin-top: -55px;
 }
 
 .logo{
 padding-left: 24px;
 padding-top: 10.5px;
+}
+
+.back{
+opacity: 0.8;
+width:100%;
+background:url("images/icons/header.svg");
+mix-blend-mode: overlay;
+height: 55px;
 }
 
 .login{
