@@ -9,12 +9,60 @@ body{
     background-color: #EEEEEE;
 }
 
+.uline{         
+    padding-bottom: 14px;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    width: fit-content;
+}
+
+.pill{
+
+    background-color: #2A7FF3;
+    border: none;
+    color: #FFFFFF;
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left:-10px;
+    margin-top:7px;
+    margin-right: 32px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 20px;
+    width:20px;
+}
+
+.pill-1{
+
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left:-10px;
+    margin-top:7px;
+    margin-right: 32px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 20px;
+    width:20px;
+}
+
 .head1{
 height: 55px;
 background:#25313F padding-box;
 width:100%;
 border-bottom: 2px solid #31B9E4;
 margin-top: -55px;
+}
+
+.nav-items{
+    display: flex;
+    color:#3FD28B;
 }
 
 .logo{
@@ -62,13 +110,27 @@ h2{
 .container1{
     padding: 20px 0px 30px 0px;
     display:flex;
+    
 }
 
 .container2{
-    margin:0 auto;
     padding-bottom:10px;
     border:0;
     display:flex;
+    width:325px;
+}
+
+.radio{
+    width: 20px;
+    height:20px;
+    accent-color: #1F7A54;
+    margin:0 auto;
+}
+
+.check{
+    width: 20px;
+    height:20px;
+    accent-color: #1F7A54;
 }
 
 h3{
@@ -81,6 +143,7 @@ h3{
 
 .container3{
     padding: 0;
+    padding-bottom: 2px;
     border:0;
     display:flex;
     margin:0px auto;
@@ -136,7 +199,16 @@ h4{
     }
 
     footer {
-        position: fixed;
+        position:fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+      }
+
+    .f{
+        position:static;
         left: 0;
         bottom: 0;
         width: 100%;
@@ -163,4 +235,123 @@ h4{
         padding-left: 130px;
         padding-right: 130px;
         font-size: 12px;
+    }
+
+    .green{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        background: #8DDC97 padding-box;
+        margin:24px;
+        margin-bottom: 0;
+        height: 64px;
+    }
+
+    .gap{
+        background: #EEEEEE padding-box;
+        height: 25px;
+        width:50%;
+        margin: 0px 24px 0px 24px;
+        border-top: 4px solid black;
+        margin-top:-4px;
+    }
+
+
+    .green-icon{
+        height: 32px;
+        padding-right: 8px;
+
+    }
+
+    .courses{
+        display: inline-flex;
+        margin: auto;
+        margin-top:18px;
+    }
+
+    .classes{
+        display: flex;
+        margin:auto;
+        margin-top:18px;
+    }
+
+    .g{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        border-bottom: 1px solid #0000003D;;
+        margin:0px 24px 0px 24px;
+        padding-bottom:17px;
+    }
+
+    .g1{
+        grid-column: 1/1;
+    }
+
+    .g2{
+        display:flex;
+        grid-column: 2/2;
+        justify-content: end;
+    }
+    .contain{
+        margin:24px 24px 24px 24px;
+    }
+    .p{
+        display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(475px,1fr));
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 20px;
+        padding-bottom:10px;
+    }
+
+    .p1{
+        height: 246px;
+        max-width: 100%;
+        min-width: 80%;
+        background: #FFFFFF padding-box;
+        opacity: 1;
+        margin:0 auto;
+        display:grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .lined{
+        display: flex;
+    }
+
+    .pi{
+        display:flex;
+        justify-content: space-around;
+        grid-column: 1/-1;
+    }
+
+    .lined-p{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .expired{
+        position:static;
+        top:0;
+        left:0;
+    }
+
+    mark{
+        background-color:#FFE4E6;
+        color:#D80000;
+        padding:2px;
+    }
+
+    .hamburger{
+        display:none;
+    }
+    
+    @media screen and (max-width:1050px){
+        .hamburger{
+            display:block;
+        }
+        .k{
+            display:none;
+        }
+
     }
